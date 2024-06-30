@@ -46,3 +46,20 @@ docker push mydockerhubuser/postgres-backup:$VERSION_TAG
 
 ```
 
+## Implement CICD 
+```sh
+# file destination
+.github/workflows/ci-cd.yml
+```
+
+
+## To securely manage your Docker Hub credentials, store them as secrets in your GitHub repository:
+
+1. Go to your GitHub repository.
+2. Click on Settings.
+3. Click on Secrets and variables > Actions.
+4. Click on New repository secret.
+5. Add the following secrets:   
+DOCKER_USERNAME: Your Docker Hub username.   
+DOCKER_PASSWORD: Your Docker Hub password.
+
