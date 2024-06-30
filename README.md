@@ -46,5 +46,3 @@ docker push mydockerhubuser/postgres-backup:$VERSION_TAG
 
 ```
 
-TODO:
-- [ ] Craeate Makefile with options , test, lint, build, push
